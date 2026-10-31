@@ -1,0 +1,11 @@
+# Python 3.11 ou superior (o Google Colab já atende)
+# scikit-learn e imbalanced-learn ficam com versão fixa: os resultados da Random Forest
+# mudam levemente entre versões do scikit-learn, e as versões abaixo reproduzem exatamente
+# os números registrados nos notebooks, no README e na apresentação.
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+numpy>=1.25
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+seaborn>=0.13

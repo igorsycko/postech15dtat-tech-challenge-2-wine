@@ -1,0 +1,12 @@
+variavel,limite_inferior,limite_superior,outliers_abaixo,outliers_acima,total_outliers,pct_outliers
+Açúcar residual,0.85,3.65,0,95,95,9.3
+Cloretos,0.04,0.12,7,64,71,7.0
+Sulfatos,0.295,0.975,0,41,41,4.0
+Acidez fixa,4.1,12.1,0,37,37,3.6
+SO₂ total,-40.5,123.5,0,33,33,3.2
+Densidade,0.9922,1.0012,14,16,30,2.9
+pH,2.925,3.685,10,14,24,2.4
+SO₂ livre,-14.0,42.0,0,16,16,1.6
+Acidez volátil,0.0075,1.0275,0,10,10,1.0
+Teor alcoólico,6.95,13.75,0,6,6,0.6
+Ácido cítrico,-0.405,0.915,0,1,1,0.1
