@@ -11,7 +11,7 @@ qualidade** e o que isso significa para o processo de produção.
 | Entregável | Onde está |
 |---|---|
 | Código e análises | [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) (problema + EDA) e [`notebooks/02_modelagem.ipynb`](notebooks/02_modelagem.ipynb) (pré-processamento, modelos, avaliação e interpretação) |
-| Apresentação executiva (storytelling da EDA) | [`presentation/apresentacao_executiva.pdf`](presentation/apresentacao_executiva.pdf) · [versão PPTX](presentation/apresentacao_executiva.pptx) |
+| Apresentação executiva (storytelling da EDA) | [`presentation/apresentacao_executiva.pdf`](presentation/apresentacao_executiva.pdf) |
 | Vídeo executivo (até 5 min) | LINK_DO_VIDEO |
 | Gráficos e métricas | [`results/`](results/) |
 
@@ -33,6 +33,10 @@ qualidade** e o que isso significa para o processo de produção.
 realmente eram** — 46% de acerto, contra 13% se a escolha fosse ao acaso. Esses 41 vinhos (20% do total)
 concentram **70% dos vinhos bons**. Na prática, o modelo serve como **triagem**: indica quais lotes merecem
 prioridade na prova sensorial e quais têm risco de qualidade baixa.
+
+**Onde o modelo erra:** quase sempre na fronteira do corte. Dos 22 alarmes falsos, 19 são vinhos de nota 6, e os 8
+vinhos bons não encontrados têm nota 7; só 3% dos vinhos de nota 5 são apontados como "alta". Por isso o modelo serve
+para triagem, mas não para decidir sozinho o selo premium (análise completa na seção 7.1 do notebook 02).
 
 ![Fatores que mais influenciam a qualidade](results/figures/15_importancia_permutacao.png)
 
@@ -153,9 +157,7 @@ postech15dtat-tech-challenge-2-wine/
 │   ├── figures/                    # todos os gráficos (PNG)
 │   └── *.csv                       # métricas e tabelas da análise
 ├── presentation/
-│   ├── apresentacao_executiva.pptx # storytelling da análise
-│   ├── apresentacao_executiva.pdf
-│   └── roteiro_video.md            # roteiro do vídeo executivo (até 5 min)
+│   └── apresentacao_executiva.pdf  # apresentação executiva (storytelling da análise)
 ├── requirements.txt
 └── README.md
 ```
