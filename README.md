@@ -21,6 +21,7 @@ qualidade** e o que isso significa para o processo de produção.
 |---|---|
 | Código e análises | [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) (problema + EDA) e [`notebooks/02_modelagem.ipynb`](notebooks/02_modelagem.ipynb) (pré-processamento, modelos, avaliação e interpretação) |
 | Apresentação executiva (storytelling da EDA) | [`presentation/apresentacao_executiva.pdf`](presentation/apresentacao_executiva.pdf) |
+| Relatório técnico-executivo (execução e resultados por etapa) | [`presentation/relatorio_o_que_faz_um_vinho_ser_excelente.pdf`](presentation/relatorio_o_que_faz_um_vinho_ser_excelente.pdf) |
 | Vídeo executivo (até 5 min) | LINK_DO_VIDEO |
 | Gráficos e métricas | [`results/`](results/) |
 
@@ -166,7 +167,8 @@ postech15dtat-tech-challenge-2-wine/
 │   ├── figures/                    # todos os gráficos (PNG)
 │   └── *.csv                       # métricas e tabelas da análise
 ├── presentation/
-│   └── apresentacao_executiva.pdf  # apresentação executiva (storytelling da análise)
+│   ├── apresentacao_executiva.pdf  # apresentação executiva (storytelling da análise)
+│   └── relatorio_o_que_faz_um_vinho_ser_excelente.pdf  # relatório técnico-executivo por etapa
 ├── requirements.txt
 └── README.md
 ```
