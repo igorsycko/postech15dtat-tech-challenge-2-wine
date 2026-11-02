@@ -6,6 +6,15 @@ Modelo que prevê se um vinho tinto é de **alta qualidade (nota ≥ 7)** ou **b
 11 medições físico-químicas de laboratório. O projeto também identifica **quais características mais pesam na
 qualidade** e o que isso significa para o processo de produção.
 
+## Integrantes do grupo
+
+| Nome | RM |
+|---|---|
+| Igor S. U. Ramalho | 376886 |
+| Luana L. Reis | 376811 |
+| Rafaele T. Lima | 376318 |
+| Thiago S. do Nascimento | 376102 |
+
 ## Entregáveis
 
 | Entregável | Onde está |
