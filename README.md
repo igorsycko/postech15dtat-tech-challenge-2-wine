@@ -22,7 +22,7 @@ qualidade** e o que isso significa para o processo de produção.
 | Código e análises | [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) (problema + EDA) e [`notebooks/02_modelagem.ipynb`](notebooks/02_modelagem.ipynb) (pré-processamento, modelos, avaliação e interpretação) |
 | Apresentação executiva (storytelling da EDA) | [`presentation/apresentacao_executiva.pdf`](presentation/apresentacao_executiva.pdf) |
 | Relatório técnico-executivo (execução e resultados por etapa) | [`presentation/relatorio_o_que_faz_um_vinho_ser_excelente.pdf`](presentation/relatorio_o_que_faz_um_vinho_ser_excelente.pdf) |
-| Vídeo executivo (até 5 min) | LINK_DO_VIDEO |
+| Vídeo executivo (até 5 min) | [Assistir no Google Drive](https://drive.google.com/drive/folders/1o9byD_f4ciEEFs4sd_V8rF8rkbu-qmiy) |
 | Gráficos e métricas | [`results/`](results/) |
 
 ---
